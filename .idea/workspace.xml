@@ -7,13 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a41910b-08b6-4fa2-be58-0e69ec9249a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/bean/CalculatorBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mc/domain/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mc/mc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/_015_jsp.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/jsp/_016_jsp.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/DB.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mc/dao/IUserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mc/dao/impl/IUserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mc/exception/UserExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mc/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mc/service/IUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mc/util/WebUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mc/util/XmlUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mc/web/controller/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mc/web/controller/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mc/web/controller/RegisterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mc/web/formbean/RegisterFormBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mc/web/ui/RegisterUIServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/pages/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/message.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/mc_java_demo_war_exploded/jsp/_014_jsp.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mc_java_demo_war_exploded/jsp/_014_jsp.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/mc_java_demo_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/mc_java_demo_war_exploded/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mc/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mc/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,33 +53,33 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="11" />
-          <entry key="jsp" value="25" />
+          <entry key="java" value="28" />
+          <entry key="jsp" value="30" />
           <entry key="png" value="1" />
-          <entry key="xml" value="2" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
           <entry key="Image" value="1" />
-          <entry key="JAVA" value="11" />
-          <entry key="JSP" value="25" />
-          <entry key="XML" value="2" />
+          <entry key="JAVA" value="28" />
+          <entry key="JSP" value="30" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="336" />
+          <entry key="java" value="493" />
           <entry key="jsp" value="677" />
-          <entry key="xml" value="226" />
+          <entry key="xml" value="245" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="336" />
+          <entry key="JAVA" value="493" />
           <entry key="JSP" value="677" />
-          <entry key="XML" value="226" />
+          <entry key="XML" value="245" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -78,112 +90,102 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/_013_jsp.jsp">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="68" />
+            <state relative-caret-position="280">
+              <caret line="62" column="23" lean-forward="true" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/_014_jsp.jsp">
+        <entry file="file://$PROJECT_DIR$/src/mc/service/IUserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/_015_jsp.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/_016_jsp.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/mc/mc.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="176">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#454#455#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/mc/domain/User.java">
+        <entry file="file://$PROJECT_DIR$/src/mc/web/controller/RegisterServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bean/CalculatorBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="58" column="61" lean-forward="true" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
+            <state relative-caret-position="456">
+              <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
               <folding>
-                <element signature="e#285#286#0" expanded="true" />
-                <element signature="e#316#317#0" expanded="true" />
-                <element signature="e#364#365#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#522#523#0" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
-                <element signature="e#597#598#0" expanded="true" />
-                <element signature="e#628#629#0" expanded="true" />
-                <element signature="e#674#675#0" expanded="true" />
-                <element signature="e#714#715#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-                <element signature="e#776#777#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#856#857#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bean/Person.java">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="32" column="15" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="15" />
+            <state relative-caret-position="1540">
+              <caret line="70" column="41" lean-forward="true" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
               <folding>
-                <element signature="e#321#322#0" expanded="true" />
-                <element signature="e#353#354#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#504#505#0" expanded="true" />
-                <element signature="e#530#531#0" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#629#630#0" expanded="true" />
-                <element signature="e#659#660#0" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#form#0;n#fieldset#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/jsp/_012_jsp.jsp">
+        <entry file="file://$PROJECT_DIR$/src/mc/web/controller/LogoutServlet.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mc/web/controller/LoginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mc/web/formbean/RegisterFormBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2051" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mc/exception/UserExistException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="59" />
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mc/util/WebUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-907">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mc/web/ui/RegisterUIServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -193,6 +195,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Jsp File" />
         <option value="Class" />
       </list>
@@ -201,6 +204,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>incl</find>
+      <find>getRequestDispatcher</find>
+      <find>RegisterUIServlet</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -222,7 +227,6 @@
         <option value="$PROJECT_DIR$/web/jsp/_002_jsp.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/404Error.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/_500_Error.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/web/jsp/head.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/foot.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/_003_jsp.jsp" />
@@ -241,6 +245,21 @@
         <option value="$PROJECT_DIR$/src/bean/CalculatorBean.java" />
         <option value="$PROJECT_DIR$/web/jsp/_015_jsp.jsp" />
         <option value="$PROJECT_DIR$/web/jsp/_016_jsp.jsp" />
+        <option value="$PROJECT_DIR$/src/mc/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/mc/dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/src/mc/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/mc/util/XmlUtils.java" />
+        <option value="$PROJECT_DIR$/src/mc/dao/impl/IUserDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/mc/service/IUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/pages/register.jsp" />
+        <option value="$PROJECT_DIR$/src/mc/util/WebUtils.java" />
+        <option value="$PROJECT_DIR$/src/mc/exception/UserExistException.java" />
+        <option value="$PROJECT_DIR$/src/mc/web/formbean/RegisterFormBean.java" />
+        <option value="$PROJECT_DIR$/src/mc/web/controller/LogoutServlet.java" />
+        <option value="$PROJECT_DIR$/src/mc/web/controller/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/mc/web/ui/RegisterUIServlet.java" />
+        <option value="$PROJECT_DIR$/src/mc/web/controller/RegisterServlet.java" />
       </list>
     </option>
   </component>
@@ -258,10 +277,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="178" />
-    <option name="y" value="30" />
+    <option name="x" value="251" />
+    <option name="y" value="44" />
     <option name="width" value="1384" />
-    <option name="height" value="675" />
+    <option name="height" value="685" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -310,14 +329,7 @@
               <item name="mc-java-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="mc" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="mc-java-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mc-java-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mc" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mc-java-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -325,6 +337,33 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="mc" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mc-java-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mc-java-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="mc" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="ui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mc-java-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mc-java-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mc-java-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mc-java-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mc-java-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mc-java-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,7 +375,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="D:/AndroidSDK" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536568711351" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536572944339" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -348,12 +387,16 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mc.service" />
+      <recent name="mc.dao.impl" />
       <recent name="servlet" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\MilletCongee\mc-java-demo\web\jsp" />
-      <recent name="D:\MilletCongee\mc-java-demo\web\img" />
-      <recent name="D:\MilletCongee\mc-java-demo\web\WEB-INF\lib" />
+      <recent name="D:\MilletCongee\mc-java-demo\src\mc\web\controller" />
+      <recent name="D:\MilletCongee\mc-java-demo\web" />
+      <recent name="D:\MilletCongee\mc-java-demo\src\mc\web\formbean" />
+      <recent name="D:\MilletCongee\mc-java-demo\src\mc" />
+      <recent name="D:\MilletCongee\mc-java-demo\src\mc\util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -419,18 +462,18 @@
       <option name="presentableId" value="Default" />
       <updated>1536542342319</updated>
       <workItem from="1536542346144" duration="92000" />
-      <workItem from="1536542481095" duration="17929000" />
+      <workItem from="1536542481095" duration="22052000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18021000" />
+    <option name="totallyTimeSpent" value="22144000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="364" y="125" width="1384" height="675" extended-state="0" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" x="954" y="195" width="300" height="540" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.2265861" />
+      <window_info x="954" y="195" width="300" height="540" id="Project" order="0" sideWeight="0.49916527" weight="0.38444108" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -441,7 +484,7 @@
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.45" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.6036364" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -465,18 +508,18 @@
       <window_info anchor="right" id="Theme Preview" order="10" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49916527" visible="true" weight="0.2265861" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info id="Capture Tool" order="6" />
-      <window_info id="Web" order="7" sideWeight="0.5008347" side_tool="true" weight="0.2532124" />
+      <window_info x="954" y="195" width="300" height="540" id="Project" order="0" sideWeight="0.49916527" weight="0.38444108" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Web" order="6" sideWeight="0.5008347" side_tool="true" weight="0.2532124" />
+      <window_info id="Structure" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Messages" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.45" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.6036364" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -585,13 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="16" column="57" selection-start-line="16" selection-start-column="57" selection-end-line="16" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="44" column="33" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -728,14 +764,14 @@
     <entry file="file://$PROJECT_DIR$/web/jsp/_014_jsp.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
-          <caret line="15" column="6" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/bean/CalculatorBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
-          <caret line="58" column="61" lean-forward="true" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
+          <caret line="58" column="61" selection-start-line="58" selection-start-column="61" selection-end-line="58" selection-end-column="61" />
           <folding>
             <element signature="e#285#286#0" expanded="true" />
             <element signature="e#316#317#0" expanded="true" />
@@ -760,28 +796,179 @@
     <entry file="file://$PROJECT_DIR$/web/jsp/_015_jsp.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="434">
-          <caret line="54" column="26" lean-forward="true" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
+          <caret line="54" column="26" selection-start-line="54" selection-start-column="26" selection-end-line="54" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/jsp/_016_jsp.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mc/mc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mc/domain/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="182">
+          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#557#558#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#739#740#0" expanded="true" />
+            <element signature="e#773#774#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+            <element signature="e#849#850#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+            <element signature="e#919#920#0" expanded="true" />
+            <element signature="e#947#948#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1056#1057#0" expanded="true" />
+            <element signature="e#1087#1088#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1173#1174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mc/dao/IUserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/org/w3c/dom/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="55" column="17" selection-start-line="55" selection-start-column="17" selection-end-line="55" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mc/util/XmlUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="14" column="46" lean-forward="true" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mc/dao/impl/IUserDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="74" column="53" lean-forward="true" selection-start-line="74" selection-start-column="53" selection-end-line="74" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mc/service/IUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/DB.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mc/util/WebUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-907">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mc/exception/UserExistException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/message.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mc/web/controller/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mc/web/controller/LogoutServlet.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mc/service/IUserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="62" column="23" lean-forward="true" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mc/web/formbean/RegisterFormBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2051" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/pages/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="70" column="41" lean-forward="true" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
+          <folding>
+            <element signature="n#style#0;n#div#5;n#form#0;n#fieldset#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mc/web/ui/RegisterUIServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="24" lean-forward="true" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mc/web/controller/RegisterServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="44" column="45" selection-start-line="44" selection-start-column="45" selection-end-line="44" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
