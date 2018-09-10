@@ -17,7 +17,7 @@
     <title>用所有的请求参数为bean的属性赋值</title>
 </head>
 <body>
-<%--http://localhost:8080/jsp/_014_jsp.jsp?name=lol&sex=%E7%94%B7&age=18--%>
+<%--http://localhost:8080/jsp/_014_jsp.jsp?name=lol&sex=%E7%94%B7&age=18&married=false--%>
     <h2>姓名：<%=person.getName()%></h2>
     <h2>性别：<%=person.getSex()%></h2>
     <h2>年龄：<%=person.getAge()%></h2>
