@@ -3,4 +3,25 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    <servlet>
+        <!--给servlet取名字，这个无所谓取什么，一般跟servlet类名相同-->
+        <servlet-name>_001_servlet</servlet-name>
+        <!--servlet的全限定类名,也就是servlet的位置-->
+        <servlet-class>servlet._001_servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <!--跟上面的servlet名字相同-->
+        <servlet-name>_001_servlet</servlet-name>
+        <!--浏览器通过该url找到servlet-->
+        <url-pattern>/_001_servlet</url-pattern>
+    </servlet-mapping>
+
+    <!--<servlet>-->
+        <!--<servlet-name>_002_servlet</servlet-name>-->
+        <!--<servlet-class>servlet._002_servlet</servlet-class>-->
+    <!--</servlet>-->
+    <!--<servlet-mapping>-->
+        <!--<servlet-name>_002_servlet</servlet-name>-->
+        <!--<url-pattern>/_002_servlet</url-pattern>-->
+    <!--</servlet-mapping>-->
 </web-app>
