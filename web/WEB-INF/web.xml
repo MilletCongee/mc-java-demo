@@ -16,12 +16,32 @@
         <url-pattern>/_001_servlet</url-pattern>
     </servlet-mapping>
 
-    <!--<servlet>-->
-        <!--<servlet-name>_002_servlet</servlet-name>-->
-        <!--<servlet-class>servlet._002_servlet</servlet-class>-->
-    <!--</servlet>-->
-    <!--<servlet-mapping>-->
-        <!--<servlet-name>_002_servlet</servlet-name>-->
-        <!--<url-pattern>/_002_servlet</url-pattern>-->
-    <!--</servlet-mapping>-->
+    <servlet>
+        <servlet-name>_003_servlet</servlet-name>
+        <servlet-class>servlet._003_servlet</servlet-class>
+        <init-param>
+            <param-name>haha</param-name>
+            <param-value>这是Servlet中的初始化参数</param-value>
+        </init-param>
+        <init-param>
+            <param-name>hehe</param-name>
+            <param-value>这是Servlet中的第二个初始化参数</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>_003_servlet</servlet-name>
+        <url-pattern>/_003_servlet</url-pattern>
+    </servlet-mapping>
+
+    <!--web.xml中使用<error-page>标签为整个web应用设置错误处理页面-->
+    <!-- 针对404错误的处理页面 -->
+      <error-page>
+           <error-code>404</error-code>
+           <location>/jsp/_404_Error.jsp</location>
+      </error-page>
+    <!-- 针对500错误的处理页面 -->
+    <error-page>
+        <error-code>500</error-code>
+        <location>/jsp/_500_Error.jsp</location>
+    </error-page>
 </web-app>
