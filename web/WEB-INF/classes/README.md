@@ -1,2 +1,0 @@
-# mc-java-demo
-javaweb
