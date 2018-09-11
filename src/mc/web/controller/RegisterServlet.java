@@ -1,10 +1,6 @@
 package mc.web.controller;
 
 
-import mc.domain.User;
-import mc.exception.UserExistException;
-import mc.service.IUserService;
-import mc.service.IUserServiceImpl;
 import mc.util.WebUtils;
 import mc.web.formbean.RegisterFormBean;
 import org.apache.commons.beanutils.BeanUtils;

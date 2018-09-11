@@ -1,7 +1,4 @@
 package mc.web.controller;
-import mc.domain.User;
-import mc.service.IUserService;
-import mc.service.IUserServiceImpl;
 
 import java.io.IOException;
 

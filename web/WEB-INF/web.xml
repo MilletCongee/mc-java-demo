@@ -34,24 +34,7 @@
     </servlet-mapping>
 
 
-    <servlet>
-        <servlet-name>RegisterServlet</servlet-name>
-        <servlet-class>mc.web.controller.RegisterServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>RegisterServlet</servlet-name>
-        <url-pattern>/RegisterServlet</url-pattern>
-    </servlet-mapping>
 
-
-    <servlet>
-        <servlet-name>LoginServlet</servlet-name>
-        <servlet-class>mc.web.controller.LoginServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>LoginServlet</servlet-name>
-        <url-pattern>/LoginServlet</url-pattern>
-    </servlet-mapping>
 
     <!--web.xml中使用<error-page>标签为整个web应用设置错误处理页面-->
     <!-- 针对404错误的处理页面 -->
