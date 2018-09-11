@@ -47,4 +47,24 @@
         <!--<error-code>500</error-code>-->
         <!--<location>/jsp/_500_Error.jsp</location>-->
     <!--</error-page>-->
+
+
+
+    <filter>
+        <filter-name>EncodingFilter</filter-name>
+        <filter-class>mc.web.filter.EncodingFilter</filter-class><!--全路径 从根包开始一直到类名-->
+    </filter>
+    <filter-mapping>
+        <filter-name>EncodingFilter</filter-name>
+        <url-pattern>/*</url-pattern> <!--*即为过滤所有-->
+    </filter-mapping>
+
+
+
+
+
+
+
+
+
 </web-app>
