@@ -61,6 +61,18 @@
 
 
 
+    <filter> <!--指定一个过滤器-->
+        <filter-name>_001_filter</filter-name>  <!--用于为过滤器指定一个名字，该元素的内容不能为空-->
+        <filter-class>filters._001_filter</filter-class><!--元素用于指定过滤器的完整的限定类名-->
+        <init-param> <!--元素用于为过滤器指定初始化参数-->
+            <param-name>_001_filter</param-name> <!--指定参数的名字-->
+            <param-value>菜鸟教程</param-value> <!--指定参数的值-->
+        </init-param>
+    </filter>
+    <filter-mapping> <!--元素用于设置一个 Filter 所负责拦截的资源-->
+        <filter-name>_001_filter</filter-name> <!--子元素用于设置filter的注册名称 该值必须是在<filter>元素中声明过的过滤器的名字-->
+        <url-pattern>/_006_servlet</url-pattern> <!--设置 filter 所拦截的请求路径(过滤器关联的URL样式)-->
+    </filter-mapping>
 
 
 

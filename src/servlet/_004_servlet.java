@@ -14,7 +14,19 @@ import java.sql.*;
 *
 * */
 
+/*
+* 1. asyncSupported:声明Servlet是否支持异步操作模式
+* 2. description:　  Servlet的描述
+* 3. displayName:    Servlet的显示名称
+* 4. initParams:  Servlet的init参数
+* name : Servlet的名称
+* 5. urlPatterns: Servlet的访问URL
+* 6. value : Servlet的访问URL
+* Servlet的访问URL是Servlet的必选属性,可以选择使用urlPatterns或者value定义
+* */
 @WebServlet("/_004_servlet")
+//@WebServlet(name = "_004_servlet",urlPatterns = {"/_004_servlet","_004_Servlet"}
+//,asyncSupported = true,description = "Servlet的描述",displayName = "Servlet的显示名称")
 public class _004_servlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
     // JDBC 驱动名及数据库 URL
