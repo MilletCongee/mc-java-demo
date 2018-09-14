@@ -4,6 +4,11 @@
   Date: 2018/9/10
   Time: 11:14
   To change this template use File | Settings | File Templates.
+
+  JSP编译
+  1.解析JSP文件
+  2.将JSP文件转为servlet
+  3.编译servlet
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%--JSP中申明方法与属性(全局变量)　　使用<%!  方法、属性%>--%>
