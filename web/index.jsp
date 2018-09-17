@@ -12,5 +12,6 @@
   </head>
   <body>
   $END$
+  <jsp:forward page="/LoginServlet" />
   </body>
 </html>

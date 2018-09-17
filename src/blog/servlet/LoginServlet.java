@@ -1,5 +1,8 @@
 package blog.servlet;
 
+import blog.utils.LoginUtils;
+import blog.utils.StringUtils;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -11,7 +14,9 @@ import java.io.IOException;
 public class LoginServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        LoginUtils.login(request);
         // 初始化分类
+
         // 初始化文章列表
         // 初始化获取标签
         // 初始化侧边栏 日志、分类、标签的个数
